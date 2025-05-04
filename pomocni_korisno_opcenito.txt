@@ -1,0 +1,14 @@
+https://pixabay.com/        galerija slika
+
+https://jsonplaceholder.typicode.com/           rest api
+
+https://stackblitz.com/         //instant dev environmemts
+https://stackblitz.com/edit/http-basics?file=app%2Fapp.component.ts
+
+bootstrap komponente
+https://getbootstrap.com/docs/3.3/components/
+
+https://zetcode.com/all/#spring
+
+jsonObjectMaperTut
+https://www.baeldung.com/jackson-object-mapper-tutorial
