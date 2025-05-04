@@ -1,0 +1,69 @@
+
+<!--  -->
+
+<!-- ovo je komentar u html-u -->
+
+ /* ovo je komentar u css-u */
+
+
+------------------------------
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot & Thymeleaf</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+</head>
+--------------------------------
+jedno od ova dva
+<html lang="en" 
+	xmlns:th="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+--------------------------------
+<html lang="en" 
+	xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org">
+---------------------------------
+
+applications.properties:
+
+spring.application.name=Anmeldung
+
+## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring.datasource.url = jdbc:mysql://localhost:3306/demo
+spring.datasource.username = root
+spring.datasource.password =
+
+
+# Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto = update
+
+spring.jpa.show-sql=true
+
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type=TRACE
+
+----------------------------------------
+
+bootstrap:
+bootstrap site ->  docs -> quick start -> Include Bootstrap’s CSS and JS.
+----------------------------------------
+
+DTO znači Data Transfer Object. 
+To je posebna klasa koja se koristi za prenos podataka 
+između različitih slojeva aplikacije, 
+npr. između servisa i kontrolera 
+ili između aplikacije i klijenta
+
+-----------------------------------------
+
+ako se u controller-u explicitno ne pozove neki fajl ili nema kontrolera 
+aplikacija po default-u poziva index.html fajl 
+mora bit iskljucivo: index.html
+--------------------------------
+
+
